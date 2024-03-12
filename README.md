@@ -10,11 +10,11 @@ N/A
 
 ## Navigation
 
-*About Me: A
-*Projects: Explore some projects and see what I've been working on.
-*Skills: Discover the key skills I possess.
-*Experience: Learn about my professional background.
-*Contact: Reach out to me for any questions.
+* About Me: A
+* Projects: Explore some projects and see what I've been working on.
+* Skills: Discover the key skills I possess.
+* Experience: Learn about my professional background.
+* Contact: Reach out to me for any questions.
 
 ## Credits
 
