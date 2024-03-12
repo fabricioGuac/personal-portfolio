@@ -10,7 +10,7 @@ N/A
 
 ## Navigation
 
-* About Me: A
+* About Me: A brief introduction to my background.
 * Projects: Explore some projects and see what I've been working on.
 * Skills: Discover the key skills I possess.
 * Experience: Learn about my professional background.
