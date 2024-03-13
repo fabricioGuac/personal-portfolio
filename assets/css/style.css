@@ -1,10 +1,6 @@
 :root{
-    --upDown:blue;
-}
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    --upDown:rgb(106, 106, 219);
+    --upDownletters:rgb(224, 204, 179);
 }
 
 body{
@@ -15,13 +11,71 @@ flex-direction: column;
 }
 
 header{
+    background-color: var(--upDown);
+    color: var(--upDownletters);
+}
+figure{
+    display: inline;
+    font-size: 200%;
+    margin-left: 15px;
+    width: 20%;
+    height: auto;
+    overflow: auto;
+}
+figure h1{
+    margin-left: 10px;
+}
+
+main{
+    background-color: rgb(221, 210, 210);
+}
+article{
+    background-color: floralwhite;
+    margin: 15px;
+    margin-bottom: 20px;
+}
+article h2{
+    font-size: 170%;
+}
+article p{
+    line-height: 1.2;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.right-corner li {
+    float: right;
+    display: inline;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+.right-corner a{
+    margin-left: 30px;
+    font-size: 180%;
+    text-decoration: none;
+    color: var(--upDownletters);
+}
+.right-corner ul li a:hover {
+    color: black;
+}
+.projects {
     display: flex;
-    background-color: blue;
-    color: bisque;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
-header > nav{
-    display: ;
+.projects img{
+    margin: 0 10px;
 }
+#yo{
+    max-width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+
+#first-project{
+    max-width: 800px;
+    max-height: 800px;
+}
+
 @media screen {
     
 }
