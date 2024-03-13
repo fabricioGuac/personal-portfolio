@@ -42,6 +42,14 @@ article p{
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+footer{
+    font-size: 180%;
+    text-align: center;
+    background-color: var(--upDown);
+    color: var(--upDownletters);
+}
+
 .right-corner li {
     float: right;
     display: inline;
@@ -59,11 +67,25 @@ article p{
 }
 .projects {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
+
+.projects > div{
+    flex: 1 1 300px;
+    max-width: calc(50%-20px);
+    margin: 0 10px 20px;
+}
+
 .projects img{
-    margin: 0 10px;
+    max-width:100%;
+    height: auto;
+}
+.projects a{
+    text-decoration: none;
+    font-size: 170%;
+    color: black;
 }
 #yo{
     max-width: 100px;
@@ -72,10 +94,18 @@ article p{
 }
 
 #first-project{
-    max-width: 800px;
-    max-height: 800px;
+   flex-basis: 100%;
+   max-width: calc(100%-500px);
+   margin-bottom: 20px;
 }
 
-@media screen {
-    
+
+
+@media screen and (max-width: 650px){
+    article{
+        background-color: chocolate;
+    }
+    .projects{
+        flex-direction: column;
+    }
 }
