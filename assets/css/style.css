@@ -43,6 +43,12 @@ article p{
     margin-bottom: 10px;
 }
 
+article li{
+    line-height: 1.2;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 footer{
     font-size: 180%;
     text-align: center;
