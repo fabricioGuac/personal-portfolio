@@ -67,7 +67,7 @@ footer{
 }
 .projects {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -89,13 +89,17 @@ footer{
 }
 #yo{
     max-width: 100px;
-    height: auto;
-    border-radius: 50px;
+    height:auto;
+    border-radius: 50%;
+    display: block;
+}
+#first-project {
+    flex-basis: 100%;
+    max-width: calc(100%-500px);
 }
 
-#first-project{
-   flex-basis: 100%;
-   max-width: calc(100%-500px);
+#first-project img {
+   height: 700px;
    margin-bottom: 20px;
 }
 
