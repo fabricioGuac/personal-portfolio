@@ -22,7 +22,8 @@ N/A
 
 ## Screenshot displaying the deployed site
 
-![screenshot](.assets/images/fabricioguac.github.io_personal-portfolio_.png)
+![portfolio-screenshot_](https://github.com/fabricioGuac/personal-portfolio/assets/160084340/4387dbcb-c671-4926-ae84-dcd6b577caa2)
+
 
 ## URL to the deployed site
 
