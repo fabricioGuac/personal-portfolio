@@ -22,7 +22,7 @@ N/A
 
 ## Screenshot displaying the deployed site
 
-![screenshot](C:\Users\Fabricio\bootcamp\homework\personal-portfolio\assets\images\fabricioguac.github.io_personal-portfolio_.png)
+![screenshot](.assets/images/fabricioguac.github.io_personal-portfolio_.png)
 
 ## URL to the deployed site
 
